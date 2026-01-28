@@ -18,6 +18,7 @@ int main(){
     double alpha = gamma * alpha_Tb;
     double beta = alpha/(1.0-alpha);
 
+
     cout<<r << " " << beta << "\n";
  }
 const double gamma_a = 0.5;   // n_n = p_p => gamma = 0.5
@@ -41,6 +42,7 @@ const double gamma_a = 0.5;   // n_n = p_p => gamma = 0.5
 - then use loop to increase the value of W/L from .01 to 1
 - then use the gamma defined in loop to set other constants
 
+<img width="544" height="323" alt="PicofBetaGraph" src="https://github.com/user-attachments/assets/3d3bfc50-6943-4b9e-b821-2b258cd8e8de" />
 
 [Textbook Problem is From](https://rrsdce.wordpress.com/wp-content/uploads/2018/07/sspd-eee-swapnil.pdf)
 
