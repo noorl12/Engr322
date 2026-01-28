@@ -1,12 +1,12 @@
 # Testing Out GitHub
-** Print out Graph **
+**Print out Graph**
 *Graph shows change in beta was W/L is changed*
 > The current amplification factor β of a BJT is very sensitive to the base width as well as to the ratio of the base doping to the emitter doping. Calculate and plot β for a p-n-p BJT with L′ₚ = Lⁿₚ for:
 1. (a) nₙ = pₚ, W_b / L′ₚ = 0.01 to 1;
 2. (b) W_b = Lⁿₚ, nₙ / pₚ = 0.01 to 1.
 
 ---------------------------------------------
-'#include <iostream>
+' #include <iostream>
 #include <iomanip>
 using namespace std;
  
