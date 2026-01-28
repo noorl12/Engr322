@@ -6,22 +6,22 @@
 2. (b) W_b = Lⁿₚ, nₙ / pₚ = 0.01 to 1.
 
 ---------------------------------------------
-' #include <iostream>
-#include <iomanip>
-using namespace std;
+    #include <iostream>
+    #include <iomanip>
+     using namespace std;
+  
+    int main(){ 
+     const double alpha_Tb = 0.5;
  
-int main(){ 
-    const double alpha_Tb = 0.5;
- 
- for( double r = .01; r<=1.0; r+=.01) { 
-    double gamma = 1.0/(1.0+r);
-    double alpha = gamma * alpha_Tb;
-    double beta = alpha/(1.0-alpha);
+    for( double r = .01; r<=1.0; r+=.01) { 
+     double gamma = 1.0/(1.0+r);
+     double alpha = gamma * alpha_Tb;
+     double beta = alpha/(1.0-alpha);
 
 
     cout<<r << " " << beta << "\n";
- }
-const double gamma_a = 0.5;   // n_n = p_p => gamma = 0.5
+     }
+    const double gamma_a = 0.5;   // n_n = p_p => gamma = 0.5
 
     cout << fixed << setprecision(5);
     cout << "x = Wb/L\tbeta(x)\n";
@@ -32,11 +32,11 @@ const double gamma_a = 0.5;   // n_n = p_p => gamma = 0.5
         double beta    = alpha / (1.0 - alpha);
 
         cout << x << "\t" << beta << "\n";
-    }
+       }
 
 
- return 0;
-} ' 
+     return 0;
+     } 
 
 - code defines constants
 - then use loop to increase the value of W/L from .01 to 1
